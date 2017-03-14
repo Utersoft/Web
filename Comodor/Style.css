@@ -1,0 +1,105 @@
+/*
+Theme Name: Theme site ludus 1C
+Theme URI: ludus1C.com
+Author: Stephane Wilhelm
+Description: Theme css site web Ludus 1C
+Version: 1.0
+Licence:: Ludus 1C
+License URI: Ludus1C.com
+Text Domais: ludus1C
+*/
+
+
+/*	attribut class
+	attribut id
+*/
+
+
+/*Général*/
+
+
+*{
+	margin:5px;
+	padding:7px;
+}
+
+
+h1{
+	font-size: 1em;
+	font-size: 300%;
+	font-family: 'Indie Flower', cursive;
+	font-style: bold;
+	height: auto;
+	text-align: center;
+	color : aqua;
+	border:6px inset;
+	border-color: pink;
+	border-radius: 100px 15px 20px 5px;
+	background-color: #00FF7F;
+	box-shadow: 12px 12px 0px grey;
+	text-shadow: 2px 2px 4px green;
+	opacity: 0.7;
+}
+
+body{
+	background-color: lightgrey;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-image : url("images/Fond");
+	background-position: center;
+	background-size: 1400px 600px;
+}
+
+
+aside{
+	border: 3px inset;
+	width: 200px;	
+}
+
+
+.dessous
+{
+	clear:both;
+}
+
+
+strong{
+	font-size: 150%;
+	font-family: 'Indie Flower', cursive;
+	text-decoration: underline;
+}
+
+ul{
+	list-style-type: none;
+}
+
+h1{
+	text-align: center;
+	border:3px inset;
+	border-color: black;
+	border-radius: 100px 15px 20px 5px;
+	background-color: grey;
+	box-shadow: 12px 12px 0px grey;
+	text-shadow: 2px 2px 4px red;
+	/*border-radius:10px;*/
+	width: 50%;
+	/*margin-left: auto;
+	margin-right: auto;= la propriété du dessous*/
+	margin:0 auto;
+}
+
+section{
+	width:40%; /*Espace occupé par le texte*/
+	height: 100px;
+	text-align: justify;
+	margin:0 auto;
+	padding-bottom: 2%;
+	max-width: 1500px;
+	min-width: 800px;
+	height: auto;
+	border: 1px solid green;
+	padding: 40px;
+	margin-bottom: 50px;
+	text-shadow: 2px 2px 4px black;
+	color: lightgreen;
+}
